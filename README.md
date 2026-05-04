@@ -51,7 +51,7 @@ graph TD
 
 ## 🛠️ Architecture Stack
 - **Frontend:** Streamlit
-- **AI Brain:** Google Generative AI (Gemini 1.5 Flash)
+- **AI Brain:** Google Generative AI (Gemini 2.5 Flash)
 - **Asset Pipeline:** Pexels Video API
 - **Language:** Python 3.10+
 
