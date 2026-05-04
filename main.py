@@ -125,7 +125,7 @@ if generate_btn:
             with st.status("🧠 Agent is processing...", expanded=True) as status:
                 st.write("🔍 Running Computer Vision Analysis...")
                 genai.configure(api_key=GEMINI_API_KEY)
-                vision_model = genai.GenerativeModel('gemini-1.5-flash')
+                vision_model = genai.GenerativeModel('gemini-2.5-flash')
                 
                 img = Image.open(uploaded_file)
                 details = vision_model.generate_content(["Identify this product and its core benefit in one short sentence. Strictly no brand names.", img]).text.strip()
@@ -153,6 +153,6 @@ if generate_btn:
                     st.error("No high-quality asset match found. Try a different product photo.")
         except Exception as e:
             # 👉 Naya Error Checker 👈
-            st.error(f"🚨 Asli Error ye hai: {e}")
+            st.error(f"🚨 Error : {e}")
 
 st.markdown("</div>", unsafe_allow_html=True)
