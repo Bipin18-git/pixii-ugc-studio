@@ -11,7 +11,7 @@ Pixii operates on a 4-stage autonomous architecture, shifting from traditional p
 *   **Function:** Handles user inputs, securely accepting raw product imagery (Image Assets) and directorial preferences (e.g., TikTok Viral, Facebook Ad styling).
 
 ### 2. The Vision & Reasoning Engine (The 'Brain')
-*   **Engine:** Google Gemini 1.5 Flash (Multimodal LLM).
+*   **Engine:** Google Gemini 2.5 Flash (Multimodal LLM).
 *   **Function:** This is the core intelligence of the agent. Instead of relying on user prompts, it uses Computer Vision to 'see' the product, identify its core value proposition, and autonomously act as a creative director to engineer its own B-roll search strategy (keyword generation). 
 
 ### 3. The Asset Sourcing Pipeline (External Integration)
