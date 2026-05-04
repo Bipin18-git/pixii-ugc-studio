@@ -152,6 +152,7 @@ if generate_btn:
                 else:
                     st.error("No high-quality asset match found. Try a different product photo.")
         except Exception as e:
-            st.error("Deployment Error: Make sure API Keys are added to Streamlit Secrets.")
+            # 👉 Naya Error Checker 👈
+            st.error(f"🚨 Asli Error ye hai: {e}")
 
 st.markdown("</div>", unsafe_allow_html=True)
