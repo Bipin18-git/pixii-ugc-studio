@@ -1,3 +1,4 @@
+LIVE DEMO LINK:-https://pixii-ugc-studio-pmyugzzdbtnyksct4u62pq.streamlit.app/
 # 🎬 Pixii | Autonomous AI UGC Video Agent 
 
 Pixii is an autonomous AI agent designed for e-commerce brands and marketers. It instantly converts static product photos into high-converting, 15-30 second UGC (User Generated Content) style video ads. By leveraging agentic search and context-aware asset matching, Pixii eliminates the need for expensive creators and slow rendering pipelines.
